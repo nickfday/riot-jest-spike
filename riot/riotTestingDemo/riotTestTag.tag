@@ -1,0 +1,1 @@
+<riotTestTag><div class="test-wrapper"><h1>Riot Test Header</h1><h3>{opts.title}</h3></div></riotTestTag>

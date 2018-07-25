@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <title>Hello Riot.</title>
+  <link rel="stylesheet" href="../riot/todo.css">
+</head>
+
+<body>
+  <!-- <hello name="hello world"></hello>
+  <card title="Custom Riot Title" imageSrc="https://i.ytimg.com/vi/O-XidwKsKAE/maxresdefault.jpg">TEST</card>
+  <todo></todo> -->
+  <todo></todo>
+  <riotTestTag title="Fake Title"></riotTestTag>
+
+  <script src="../riot/todo.tag" type="riot/tag"></script>
+  <script src="../riot/riotTestingDemo/riotTestTag.tag" type="riot/tag"></script>
+  <script src="../node_modules/riot/riot+compiler.min.js"></script>
+
+  <script>
+    riot.mount('todo', {
+      title: 'Riot Todo List',
+      items: [
+        { title: 'Avoid excessive caffeine', done: true },
+        { title: 'Hidden item', hidden: true },
+        { title: 'Household chores' },
+        { title: 'Tidy Office' }
+      ]
+    })
+    riot.mount('riotTestTag')
+  </script>
+</body>
+
+</html>

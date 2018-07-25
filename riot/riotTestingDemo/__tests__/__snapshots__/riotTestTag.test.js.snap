@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`card should match snapshot 1`] = `
+<riottesttag
+  data-is={
+    Array [
+      "riottesttag",
+    ]
+  }
+>
+  <div
+    class={
+      Array [
+        "test-wrapper",
+      ]
+    }
+  >
+    <h1>
+      Riot Test Header
+    </h1>
+    <h3>
+      Fake Title
+    </h3>
+  </div>
+</riottesttag>
+`;
