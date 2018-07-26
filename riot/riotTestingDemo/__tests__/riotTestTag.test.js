@@ -1,10 +1,8 @@
 import { mount, shallow } from 'riot-test-utils';
 import assert from 'assert';
-//import riotTestTag from '../riotTestTag.tag';
+import riotTestTag from '../riotTestTag.tag';
 
-var testTag =
-  '<riotTestTag><div class="test-wrapper"><h1>Riot Test Header</h1><h3>{opts.title}</h3></div></riotTestTag>';
-
+var testTag = riotTestTag;
 var wrapper = mount(testTag, {
   title: 'Fake Title'
 });
